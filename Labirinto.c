@@ -3,16 +3,16 @@
  * Data: 21/09/2019
  * Autor: Emanuel Souza 
  * Autor: Iarley Moraes 
- * Matéria: Inteligência Artifcial
+ * MatÃ©ria: InteligÃªncia Artifcial
  * Busca em Profundidade com retrocesso (recursivo)
- * Descrição: Dado um labirinto (com posições de entrada e saída), ache o 
+ * DescriÃ§Ã£o: Dado um labirinto (com posiÃ§Ãµes de entrada e saÃ­da), ache o 
  * melhor caminho utilizando a busca em profundidade (DFS - Depth-first search),
- * seguindo a ordem de prioridade: norte, leste, oeste, sul. Para tanto não é
+ * seguindo a ordem de prioridade: norte, leste, oeste, sul. Para tanto nÃ£o Ã©
  * possivel utilizar as diagonais.
- * Obs: A pilha será utilizada somente para dizer qual é o melhor caminho.
- * Foi utilizao a técnica POP e PUSH da pilha para armazenar ou remover os caminhos.
- * Toda busca é feita em recursividade para otimização do código, reduzindo
- * o custo da complexidade para O(bm) com m sendo o nível.
+ * Obs: A pilha serÃ¡ utilizada somente para dizer qual Ã© o melhor caminho.
+ * Foi utilizao a tÃ©cnica POP e PUSH da pilha para armazenar ou remover os caminhos.
+ * Toda busca Ã© feita em recursividade para otimizaÃ§Ã£o do cÃ³digo, reduzindo
+ * o custo da complexidade para O(bm) com m sendo o nÃ­vel.
 */
 
 #include <stdio.h>
@@ -22,8 +22,7 @@
 
 int custoTotal = 0;
 int custoParcial = 0;
-//linha coluna
-// 7 : 2-7
+
 char labirinto[10][10]={
   '1','1','1','1','1','1','1','1','1','1',
   '1','0','0','0','1','0','0','0','0','1',
@@ -89,7 +88,7 @@ int verTabuleiro(){
         printf("\n\n");
     }
 }
-// Define a posição inicial e final do labirinto
+// Define a posiÃ§Ã£o inicial e final do labirinto
 int definirPosicoes(PILHA *p){
 	int x,y,n,m;
 	REGISTRO registro;
