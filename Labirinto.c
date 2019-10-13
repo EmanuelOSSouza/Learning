@@ -1,8 +1,8 @@
 /*
  * Busca em Profundidade
  * Data: 21/09/2019
- * Autor: Emanuel Souza 
- * Autor: Iarley Moraes 
+ * Autor: Emanuel Souza  (https://github.com/EmanuelOSSouza) 
+ * Autor: Iarley Moraes  (https://github.com/Rytokirin21)
  * Matéria: Inteligência Artifcial
  * Busca em Profundidade com retrocesso (recursivo)
  * Descrição: Dado um labirinto (com posições de entrada e saída), ache o 
