@@ -1,7 +1,7 @@
 /*
  * Jogo da velha
  * Data: 27/02/2018
- * Autor: Emanuel Souza 
+ * Autor: Emanuel Souza (https://github.com/EmanuelOSSouza/Learning)
  * Matéria: Linguagem de programação (C)
  * Descrição: Fazer o jogo da velha em linguagem C, para 2 players.
  * OBS: O objetivo desta atividade é a utilização de matrizes e vetores, 
