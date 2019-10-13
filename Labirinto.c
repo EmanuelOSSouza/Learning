@@ -224,7 +224,6 @@ void exibirPilha(PILHA* p) {
     printf("\n");
 }
 
-
 int main(){
 	//setlocale(LC_ALL, "Portuguese");
     int x = 1;
